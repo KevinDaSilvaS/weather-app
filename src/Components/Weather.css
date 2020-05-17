@@ -1,0 +1,129 @@
+.search-bar{
+    background-color: aliceblue !important;
+    border-radius: 90px !important;
+    text-align: center;
+    color: #2c4229e1;
+}
+
+.card-background{
+    background-color: #ffffff6e  !important;
+}
+
+.wrapper{
+    background-image: url('../images/warm-alt-bg.jpg');
+    background-size: cover;
+    background-position: bottom;
+    transition: 0.4 ease-out;
+    min-height: 100vh;
+    filter: saturate(50%);
+}
+
+.wrapper.cold{
+    background-image: url('../images/cold-bg.jpg');
+    filter: saturate(100%);
+}
+
+.wrapper.rain{
+    background-image: url('../images/rain-bg.jpg');
+    filter: brightness(90%);
+}
+
+.location-box{
+    position: relative;
+    background-color: #ffffff6b;
+    padding: 120px;
+    margin: 15%;
+    box-shadow: none;
+    box-shadow: 0 20px 20px 0 rgba(0,0,0,0.14), 0 30px 10px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
+    border-radius: 20px;
+}
+
+@media only screen and (min-width: 900px) {
+    .temperature{
+        color: #0035ad;
+        font-size: 135px;
+        position: fixed;
+        float: left;
+        left: 630px;
+        top: 255px;
+    }
+
+    .location{
+        position: relative;
+        bottom: 60px;
+        font-size: 25px;
+        float: left;
+        left: -70px;
+        width: 230px;
+    }
+
+    .weather{
+        position: fixed;
+        float: left;
+        top: 40%;
+        font-size: 30px;
+        left: 19%;
+    }
+
+}
+
+@media only screen and (max-width: 800px) {
+    .temperature{
+        color: #0035ad;
+        position: fixed;
+        float: left;
+        top: 22%;
+        font-size: 60px;
+        right: 25%;
+        text-align: center;
+    }
+
+    .location{
+        position: relative;
+        bottom: -80px;
+        float: left;
+        width: 140px;
+        left: -45px;
+        text-align: center;
+    }
+
+    .weather{
+        position: fixed;
+        float: left;
+        top: 20%;
+        font-size: 30px;
+        left: 40%;
+    }
+
+}
+
+@media only screen and (min-width: 1480px) {
+    .temperature{
+        color: #0035ad;
+        font-size: 155px;
+        position: fixed;
+        float: left;
+        left: 1040px;
+        top: 345px;
+    }
+
+    .location{
+        position: relative;
+        bottom: 45px;
+        font-size: 45px;
+        float: left;
+        left: -70px;
+        width: 600px;
+    }
+
+    .weather{
+        position: fixed;
+        float: left;
+        top: 52%;
+        font-size: 30px;
+        left: 18%;
+        width: 400px;
+    }
+
+}
+
