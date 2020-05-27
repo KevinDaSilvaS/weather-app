@@ -1,5 +1,6 @@
 <h1>Production Link:</h1>
-<h6>https://adoring-neumann-5f2f82.netlify.app/</h6>
+<h3>https://adoring-neumann-5f2f82.netlify.app/</h3>
+<hr>
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
